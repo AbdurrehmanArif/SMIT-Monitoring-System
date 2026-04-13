@@ -1,55 +1,21 @@
-# ─── Computer Vision
-#ultralytics
-#opencv-python
-#numpy
-#Pillow
-
-# ─── Face Recognition
-#deepface
-#tf-keras
-
-# ─── FastAPI Backend
-#fastapi
-#uvicorn[standard]
-#python-multipart
-#moviepy
-
-# ─── Database
-#sqlalchemy
-#psycopg2-binary
-#python-dotenv
-
-# ─── Streamlit Dashboard
-#streamlit
-#plotly
-#pandas
-#requests
-
-
-
-# ─── Computer Vision
-ultralytics
+streamlit
+deepface==0.0.79
+tensorflow-cpu==2.10.1
+keras==2.10.0
 opencv-python-headless
 numpy
 Pillow
+pandas
+requests
+plotly
 
-# ─── Face Recognition
-deepface==0.0.79
-tensorflow-cpu==2.10.1
-
-# ─── FastAPI Backend
 fastapi
 uvicorn[standard]
 python-multipart
 moviepy
 
-# ─── Database
 sqlalchemy
 psycopg2-binary
 python-dotenv
 
-# ─── Streamlit Dashboard
-streamlit
-plotly
-pandas
-requests
+ultralytics
